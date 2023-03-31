@@ -1,0 +1,10 @@
+image: "renovate/renovate:32.176.2"
+
+stages:
+  - dependencies
+
+renovate:
+  stage: dependencies
+  resource_group: renovate
+  script:
+    - renovate test-python-project
