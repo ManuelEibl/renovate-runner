@@ -1,9 +1,0 @@
-name: ci
-
-on: [push]
-
-jobs:
-  build:
-    runs-on: renovate/renovate:32.176.2
-
-    steps: renovate test-python-project
