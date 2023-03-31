@@ -12,7 +12,6 @@ jobs:
         uses: renovatebot/github-action@v36.0.0
         with:
           renovate-version: 35.28.0
-          configurationFile: config.js
+          configurationFile: renovate.json
           token: ${{ secrets.RENOVATE_TOKEN }}
           autodiscover: true
-
